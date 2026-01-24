@@ -1,0 +1,11 @@
+{
+  "name": "@appfactory/ui",
+  "private": true,
+  "version": "0.1.0",
+  "main": "index.ts",
+  "types": "index.ts",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}

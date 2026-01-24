@@ -1,0 +1,5 @@
+{
+  "$schema": "https://n8n.io/schemas/workflow.json",
+  "nodes": [],
+  "connections": {}
+}

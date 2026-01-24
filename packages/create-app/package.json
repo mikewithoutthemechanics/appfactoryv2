@@ -1,0 +1,10 @@
+{
+  "name": "@appfactory/create-app",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "create-company": "./src/create-company.js"
+  },
+  "dependencies": {}
+}

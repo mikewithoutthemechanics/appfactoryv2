@@ -1,0 +1,13 @@
+{
+  "name": "@appfactory/payfast-adapter",
+  "private": true,
+  "version": "0.1.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "types": "src/index.ts",
+  "type": "module",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "pg": "^8.9.0"
+  }
+}

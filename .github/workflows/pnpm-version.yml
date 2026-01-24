@@ -1,0 +1,13 @@
+name: PNPM Version
+on:
+  push:
+    branches: [ main ]
+jobs:
+  update-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v2
+        with:
+          version: '8'
+      - run: pnpm -v

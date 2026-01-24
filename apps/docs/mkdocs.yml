@@ -1,0 +1,8 @@
+site_name: AppFactory Docs
+theme:
+  name: material
+markdown_extensions:
+  - toc:
+      permalink: true
+nav:
+  - Home: index.md

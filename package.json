@@ -1,0 +1,23 @@
+{
+  "name": "appfactory-final",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "docker/*"
+  ],
+  "scripts": {
+    "dev": "pnpm -w -r run dev --filter @appfactory/web",
+    "build": "pnpm -w -r run build",
+    "lint": "eslint . --ext .ts,.tsx",
+    "test": "vitest --config vitest.config.ts",
+    "create-company": "node --input-type=module ./packages/create-app/src/create-company.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4",
+    "eslint": "^8.39.0",
+    "prettier": "^2.7.1",
+    "vitest": "^0.34.0"
+  }
+}

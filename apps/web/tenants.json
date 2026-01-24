@@ -1,0 +1,14 @@
+{
+  "acme": {
+    "name": "Acme Corp",
+    "color": "#4F46E5"
+  },
+  "beta": {
+    "name": "Beta LLC",
+    "color": "#10B981"
+  },
+  "default": {
+    "name": "AppFactory Default",
+    "color": "#64748B"
+  }
+}
