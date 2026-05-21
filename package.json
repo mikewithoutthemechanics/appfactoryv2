@@ -11,7 +11,7 @@
     "dev": "pnpm -w -r run dev --filter @appfactory/web",
     "build": "pnpm -w -r run build",
     "lint": "eslint . --ext .ts,.tsx",
-    "test": "vitest --config vitest.config.ts",
+    "test": "vitest --config vitest.config.ts --run",
     "create-company": "node --input-type=module ./packages/create-app/src/create-company.js"
   },
   "devDependencies": {
